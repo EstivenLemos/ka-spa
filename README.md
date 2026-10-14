@@ -8,7 +8,7 @@ Landing page estática, responsive y sin frameworks. Diseñada para publicarse g
 - `styles.css` — diseño, responsive y animaciones CSS.
 - `script.js` — interacciones con JavaScript vanilla (WhatsApp, menú, galería, testimonios).
 - `assets/img/` — fotografías usadas en la página (optimizadas, sin etiquetas incrustadas).
-- `assets/hero.jpg` — **foto principal** (aún no existe; ver punto 2).
+- `assets/img/ka-spa.jpg` — foto principal del inicio (versión optimizada de `ka spa.png`).
 - `imgs/` — imágenes originales de referencia. La página no las usa; puedes conservarlas o borrarlas.
 
 ## 1. Datos de contacto
@@ -39,8 +39,9 @@ y escribe la dirección exacta. Puedes también actualizar el enlace "Ver en Goo
 
 ## 2. Foto principal
 
-Guarda la fotografía principal como `assets/hero.jpg`. La página la detecta sola y reemplaza el
-recuadro "Tu fotografía principal". Se recomienda una foto vertical (aprox. 4:5).
+La foto del inicio es `assets/img/ka-spa.jpg`. Para cambiarla, reemplaza ese archivo (idealmente
+una foto vertical, aprox. 4:5, en JPG de menos de 300 KB) o cambia la ruta en `index.html`
+dentro de `<div class="hero-image">`.
 
 ## 3. Otras imágenes
 
